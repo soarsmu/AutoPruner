@@ -2,6 +2,14 @@
 
 This repository contains source code of research paper "AutoPruner: Transformer-based Call Graph Pruning", which is submitted to ESEC/FSE 2022
 
+## Requirements
+### Hardware
+- >= 200GB disk space
+- 2 NVIDIA GPU that CUDA 11.3; supports and have at least 8GB memory.
+### Software
+- Ubuntu 18.04 or newer
+- Docker/Conda
+ 
 ## Environment Configuration
 ### Conda
 ```
