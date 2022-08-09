@@ -13,7 +13,7 @@ This repository contains source code of research paper "AutoPruner: Transformer-
 ## Environment Configuration
 ### Conda
 ```
-conda env create -n autopruner --file enviroment.yml
+conda env create -n autopruner --file environment.yml
 ```
 
 ### Docker
