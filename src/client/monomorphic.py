@@ -73,11 +73,11 @@ with open(config["TEST_PROGRAMS_LIST"], "r") as f:
         all_f1.append(2*temp[0]*temp[1]/(temp[0]+temp[1]))
 
 print("=== Monomorphic Call-site Detection ===")      
-print("[EVAL-AVG] Precision {} ({}), Recall {}({}), F1 {}({})".format(round(statistics.mean(precision_avg), 2),
-                                                                                            round(statistics.stdev(precision_avg), 2), 
-                                                                                            round(statistics.mean(recall_avg), 2),
-                                                                                            round(statistics.stdev(recall_avg), 2),
-                                                                                            round(statistics.mean(f1_avg), 2),
-                                                                                            round(statistics.stdev(f1_avg), 2)))
+print("[EVAL-AVG] Precision {} ({}), Recall {}({}), F1 {}({})".format(round(statistics.mean(all_precision), 2),
+                                                                                            round(statistics.stdev(all_precision), 2), 
+                                                                                            round(statistics.mean(all_recall), 2),
+                                                                                            round(statistics.stdev(all_recall), 2),
+                                                                                            round(statistics.mean(all_f1), 2),
+                                                                                            round(statistics.stdev(all_f1), 2)))
 
         
