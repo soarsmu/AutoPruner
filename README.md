@@ -4,7 +4,7 @@ This repository contains source code of research paper "AutoPruner: Transformer-
 
 ## Environment Configuration
 ```
-conda env create --file enviroment.yml
+conda env create -n autopruner --file enviroment.yml
 ```
 ## Experiments
 To replicate the result of AutoPruner, please down the data from this [link](https://zenodo.org/record/6369874#.YjWzmi8RppR) and put in the same folder with this repository, then run following below instructions. Note that, our results may be slightly different when running on different devices. However, this diffences does not affect our findings in the paper. 
