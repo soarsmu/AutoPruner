@@ -1,0 +1,2 @@
+python3 -m src.training.main --config_path config/doop.config --mode test --feature 2 --model_path ../replication_package/model/rq1/autopruner/doop.pth
+python3 -m src.client.monomorphic --config_path config/doop.config

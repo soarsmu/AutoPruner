@@ -1,0 +1,1 @@
+python3 -m src.training.main --config_path config/wala.config --mode test --feature 0 --model_path ../replication_package/model/rq3/structure.pth

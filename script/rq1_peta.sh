@@ -1,0 +1,1 @@
+python3 -m src.training.main --config_path config/peta.config --mode test --feature 2 --model_path ../replication_package/model/rq1/autopruner/peta.pth

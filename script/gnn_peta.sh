@@ -1,0 +1,1 @@
+python3 -m src.gnn.main --config_path config/peta.config --mode test --model_path ../replication_package/gnn_model/gnn_peta.pth

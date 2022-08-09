@@ -1,0 +1,1 @@
+python3 -m src.training.main --config_path config/ablation_caller.config --mode test --feature 2 --model_path ../replication_package/model/rq3/caller.pth
