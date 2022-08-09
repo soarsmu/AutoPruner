@@ -36,6 +36,8 @@ source /opt/conda/bin/activate
 ```
 conda activate autopruner
 ```
+Note that, the source code of AutoPruner are stored at /workspace/ in Docker. So, please move to this folder before running experiments. 
+
 
 ## Experiments
 To replicate the result of AutoPruner, please down the data from this [link](https://zenodo.org/record/6369874#.YjWzmi8RppR) and put in the same folder with this repository, then run following below instructions. Note that, our results may be slightly different when running on different devices. However, this diffences does not affect our findings in the paper. 
