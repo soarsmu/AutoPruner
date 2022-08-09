@@ -7,7 +7,7 @@ This repository contains source code of research paper "AutoPruner: Transformer-
 conda env create --file enviroment.yml
 ```
 ## Experiments
-To replicate the result of AutoPruner, please down the data from this [link](https://zenodo.org/record/6369874#.YjWzmi8RppR) and put in the same folder with this repository, then run the following commands:
+To replicate the result of AutoPruner, please down the data from this [link](https://zenodo.org/record/6369874#.YjWzmi8RppR) and put in the same folder with this repository, then run following below instructions. Note that, our results may be slightly different when running on different devices. However, this diffences does not affect our findings in the paper. 
 
 ### RQ1
 To replicate the result of AutoPruner in call graph pruning on Wala (RQ1), please use
@@ -22,17 +22,7 @@ To replicate the result of AutoPruner in call graph pruning on Petablox (RQ1), p
 ```
 bash script/rq1_peta.sh
 ```
-To replicate the result of GNN in call graph pruning on Wala (RQ1), please use
-```
-bash script/gnn_wala.sh
-```
-To replicate the result of GNN in call graph pruning on Doop (RQ1), please use
-```
-bash script/gnn_doop.sh
-```
-To replicate the result of GNN in call graph pruning on Petablox (RQ1), please use
-```
-bash script/gnn_peta.sh
+
 ```
 ### RQ2
 #### Null-pointer Analysis
