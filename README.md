@@ -63,6 +63,14 @@ Note that, the source code of AutoPruner are stored at /workspace/ in Docker. So
 
 
 ## Experiments
+To use our tool, please use the following command
+```
+python3 -m src.training.main --config_path [config path]
+                             --mode [mode: test or train] 
+                             --feature [type of features: 0: structure, 1: semantic, 2:combine] 
+                             --model_path [path to saved model (for saving in train mode and loading in test mode)]
+```
+
 To replicate the result of AutoPruner, please down the data from this [link](https://zenodo.org/record/6369874#.YjWzmi8RppR) and put in the same folder with this repository, then run following below instructions. Note that, our results may be slightly different when running on different devices. However, this diffences does not affect our findings in the paper. 
 
 ### RQ1
