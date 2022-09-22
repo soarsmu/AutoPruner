@@ -1,6 +1,6 @@
 # AutoPruner
 
-This repository contains source code of research paper "AutoPruner: Transformer-based Call Graph Pruning", which is submitted to ESEC/FSE 2022
+This repository contains source code of research paper "AutoPruner: Transformer-based Call Graph Pruning", which is published at ESEC/FSE 2022
 
 ## Structure
 The structure of our source code's repository is as follows:
