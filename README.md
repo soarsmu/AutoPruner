@@ -1,6 +1,15 @@
 # AutoPruner
 
 This repository contains source code of research paper "AutoPruner: Transformer-based Call Graph Pruning", which is published at ESEC/FSE 2022
+```
+@inproceedings{le2022autopruner,
+  title={AutoPruner: transformer-based call graph pruning},
+  author={Le-Cong, Thanh and Kang, Hong Jin and Nguyen, Truong Giang and Haryono, Stefanus Agus and Lo, David and Le, Xuan-Bach D and Huynh, Quyet Thang},
+  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={520--532},
+  year={2022}
+}
+```
 
 ## Structure
 The structure of our source code's repository is as follows:
