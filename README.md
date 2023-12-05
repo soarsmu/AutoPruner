@@ -12,7 +12,7 @@ Welcome to the source code repo of **AutoPruner**, a LLM-based call graph prunin
 
 
 ## 📃 Overview
-If you are interested in our work, please refer to our [overview](https://github.com/soarsmu/) for more details.
+If you are interested in our work, please refer to our [overview](https://github.com/soarsmu/AutoPruner/overview.md) for more details.
 
 ## 🏁 Repository Organization
 The structure of our source code's repository is as follows:
