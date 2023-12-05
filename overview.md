@@ -13,9 +13,9 @@ Constructing a static call graph requires trade-offs between soundness and preci
 
 In this paper, we present a novel call graph pruning technique, AutoPruner, for eliminating false positives in call graphs via both statistical semantic and structural analysis. Given a call graph constructed by traditional static analysis tools, AutoPruner takes a Transformer-based approach to capture the semantic relationships between the caller and callee functions associated with each edge in the call graph. To do so, AutoPruner fine-tunes a model of code that was pre-trained on a large corpus to represent source code based on descriptions of its semantics. Next, the model is used to extract semantic features from the functions related to each edge in the call graph. AutoPruner uses these semantic features together with the structural features extracted from the call graph to classify each edge via a feed-forward neural network.
 
-<picture>
-  <img alt="AutoPruner Overview" src="assets/overview.png", style="background-color:white;">
-</picture>
+<p align="center">
+  <img alt="AutoPruner Overview" src="assets/overview.png", style="background-color:white;" width="850">
+</p>
 
 ## 📈 Experimental Results
 
@@ -25,7 +25,7 @@ graph pruner. The call graphs pruned by AutoPruner improves over the state-of-th
 all baselines.
 
 <p align="center">
-  <img alt="RQ1: Effectiveness" src="assets/rq1.png", style="background-color:white;" width="350">
+  <img alt="RQ1: Effectiveness" src="assets/rq1.png", style="background-color:white;" width="550">
 </p>
 
 ### Effectiveness on Downstream Tasks
@@ -33,5 +33,5 @@ all baselines.
 The call graph produced by AutoPruner leads to improvements in both null pointer analysis and monomorphic call site detection. Based on the call graph from WALA, AutoPruner decreases the false alarm rate from null pointer analysis by 11%.
 
 <p align="center">
-  <img alt="RQ1: Effectiveness" src="assets/rq2.png", style="background-color:white;" width="350">
+  <img alt="RQ1: Effectiveness" src="assets/rq2.png", style="background-color:white;" width="550">
 </p>
