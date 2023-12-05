@@ -8,7 +8,7 @@
     <a href="https://hub.docker.com/r/thanhlecong/autopruner"><img src="https://img.shields.io/badge/docker-thanhlecong%2Fautopruner-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"></a>
 </p>
 
-Welcome to the source code repo of **AutoPruner**, a call graph pruning tool introduced in our paper "AutoPruner: Transformer-based Call Graph Pruning"! 
+Welcome to the source code repo of **AutoPruner**, a LLM-based call graph pruning tool introduced in our paper "AutoPruner: Transformer-based Call Graph Pruning"! 
 
 
 ## 📃 Overview
