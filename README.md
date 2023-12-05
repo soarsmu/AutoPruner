@@ -84,7 +84,7 @@ python3 -m src.training.main --config_path [config path]
                              --feature [type of features: 0: structure, 1: semantic, 2:combine] 
                              --model_path [path to saved model (for saving in train mode and loading in test mode)]
 ```
-## 🚀 Artifact
+## 📁 Artifact
 
 To replicate the result of AutoPruner, please down the data from our [replication package](https://zenodo.org/record/6369874#.YjWzmi8RppR) and put in the same folder with this repository, then run following below instructions. Note that, our results may be slightly different when running on different devices. However, this diffences does not affect our findings in the paper. 
 
@@ -142,7 +142,7 @@ To replicate the ablation study of AutoPruner with callee function, please use
 bash script/rq3_callee.sh
 ```
 
-## Citation
+## 📜 Citation
 If you use our tool, please cite our paper as follows:
 
 ```
