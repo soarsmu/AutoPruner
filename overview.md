@@ -1,6 +1,6 @@
 # ⚙️AutoPruner✂️
 *by Thanh Le-Cong, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Xuan-Bach D. Le, Quyet Thang Huynh*
-<p align="left">
+<p align="center">
     <a href="https://arxiv.org/abs/2209.03230"><img src="https://img.shields.io/badge/Conference-ESEC/FSE 2023-green?style=for-the-badge">
     <a href="https://arxiv.org/abs/2209.03230"><img src="https://img.shields.io/badge/arXiv-2209.03230-b31b1b.svg?style=for-the-badge">
     <br>
